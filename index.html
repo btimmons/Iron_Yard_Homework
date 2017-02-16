@@ -13,7 +13,7 @@
     <p><a href="#">Customize</a></p>
   </div>
 <div class="floatingBox2">
-<p><a href="#"> <span class="glyphicon glyphicon-shopping-cart"></span>Shopping Cart (2)</a></p>
+<p>Shopping Cart <span id="total">0</span></p>
     <p><a href="#">My Account</a></p>
     <p><a href="#">Help</a></p>
     </div>
@@ -34,26 +34,45 @@
       These sneakers make you so incredibly fast, you can win!<br/><br/>
       You should buy these. <a href="#"><span class="span2">Read the reviews.</span></a></p>
     <div class="line"></div>
-    <h1>$120<superscript>00</superscript>!
-    <button class="w3-btn">Buy now!</button></h1>
+    <div class="space"></div>
+    <h3>$120<superscript>00</superscript>
+
+    <span2 onclick="add()">Buy now!</span></h3>
+
     </div>
   </div>
 </div>
 
   <div class="white">
-    <h3>Exciting topic</h3>
-    <br/>
-    <p>Content here</p>
-    <br/>
-    <h3>Find Your Shoe Size and Fit</h3>
-    <br/>
-    <p>Content here</p>
-    <br/>
-    <h3>What Our Customers Are Saying</h3>
-    <br/>
-    <p>Don't take our word for it. Read what our customers have been saying
-    about our products. These are shoes that make you really fast.</p>
-    <br/>
+    <div class="menu">
+     <span4 onclick="makeActive('#description', '#descriptionContent')" id="description"
+     class="active">Product Details</span4>
+     <span4 onclick="makeActive('#questions', '#questionsContent')" id="questions">Size & Fit</span4>
+
+     <span5 onclick="makeActive('#reviews', '#reviewsContent')" id="reviews">Reviews</span5>
+     <link rel="stylesheet" href="jquery.rateyo.css"/>
+</head>
+
+     <div class="line2"></div>
+     <div id="descriptionContent">
+       <h3>Check out our new Funny Sneakers</h3>
+       <p>These shoes are black and red and make you really fast.</p>
+     </div>
+     <div id="questionsContent" class="hidden">
+       <h3>Find Your Shoe Size and Fit</h3>
+       <p>These shoes run true to size and fit like a dream.</p>
+     </div>
+     <div id="reviewsContent" class="hidden">
+       <h3>What Our Customers Are Saying</h3>
+       <p>Don't take our word for it. Read what our customers have been saying
+       about our products. </p>
+       <p>"These are shoes that make you really fast." <em>- Jim from Arizona</em></p>
+       <p>"These are the best shoes ever!!!!" <em>- Anne from Montanta</em></p>
+     </div>
+     </div>
+
+
+
   </div>
   <div class="pink">
     <h3>Shop Recommended Shoes</h3>
@@ -98,5 +117,8 @@
 
 
   </nav>
+  <script src="jquery-3.1.1.min.js"></script>
+  <script src="main.js"></script>
+
 </div>
 </body>

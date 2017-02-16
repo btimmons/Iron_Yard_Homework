@@ -6,6 +6,26 @@ h3 {
   font-size: 30px;
 }
 
+#text {
+
+
+}
+
+span2 {
+  cursor: pointer;
+  display: inline;
+    border-radius: 10px;
+    background: #fff;
+    padding: 10px;
+    width: 100px;
+    height: 150px;
+    color: #F3490A;
+    margin-left: 20px;
+}
+
+.hidden {
+  display: none;
+}
 
 
 .grad {
@@ -30,8 +50,8 @@ h3 {
 
 .grad h3 {
   color:#fff;
-  font-size: 30px;
-  margin-bottom: -10px;
+  font-size: 20px;
+
 }
 
 
@@ -39,9 +59,19 @@ h3 {
   width: 50px;
 }
 
+.space {
+  padding-bottom: 20px;
+}
+
 .line {
   border-bottom: 3px dashed #8F0C0E !important;
+  padding-bottom: 10px;
   }
+
+  .line2 {
+    border-bottom: 3px solid #8F0C0E !important;
+    padding-bottom: 10px;
+    }
 
 nav {
   margin: 20px;
@@ -141,6 +171,19 @@ a:hover {
   text-decoration: underline;
 }
 
+span4 {
+  cursor: pointer;
+  color:#f3490A;
+  font-size: 20px;
+  padding-right:20px;
+}
+span5 {
+  cursor: pointer;
+  color:#f3490A;
+  font-size: 20px;
+  float:right;;
+}
+
 button {
   margin-left: 20px;
   background-color: #fff;
@@ -150,7 +193,7 @@ button {
 superscript { position: relative; top: -0.5em; font-size: 60%; padding-left: 2px;}
 
 .page {
-    margin:0% 9% 0% 9%;
+    margin:0% 8% 0% 8%;
     padding-top: 40px;
     padding-bottom: 40px;
   }
@@ -209,8 +252,10 @@ font-size: 14px;
 }
 
 .span3 {
+  cursor: pointer;
   color: #fff;
 }
+
 
 
 .right {
